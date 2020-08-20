@@ -1,3 +1,128 @@
-h2 {
-  color: red;
+body {
+  font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #1d1d1d;
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 64rem) {}
+
+
+/*************** SECTION 1 CSS ***************/
+#section1_container {
+  border: 3px solid red;
+}
+
+#section1_headline {
+  border: 3px solid blue;
+}
+#section1_img {
+  border: 3px solid hotpink;
+}
+#section1_item_container {
+  border: 3px solid orangered;
+}
+
+.section1_main {
+  font-weight: 700;
+  font-size: 2.875rem;
+  line-height: 1.125;
+  letter-spacing: .8px;
+  margin-bottom: 1rem;
+}
+
+.section1_sub {
+  font-weight: 700;
+  font-size: .875rem;
+  line-height: 1.125;
+  letter-spacing: .8px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.section1_p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.44444444;
+  letter-spacing: normal;
+  margin-bottom: 1rem;
+}
+
+#section1_btn1 {
+  background-color: #4a154b;
+  border-color: #4a154b;
+  color: #fff;
+}
+
+#section1_btn2 {
+  border-color: #4a154b;
+  color: #4a154b;
+}
+
+/*************** SECTION 2 CSS ***************/
+#section2_container {
+  border: 3px solid blue;
+}
+
+#section2_div {
+  background-color: #ebeaeb;
+}
+
+#main_row1 {
+  margin-bottom: 3rem;
+}
+
+/*************** SECTION 3 CSS ***************/
+#section3_container {
+  border: 3px solid orange;
+}
+/*************** SECTION 4 CSS ***************/
+
+
+
+/****************************************************************************** NOTE : NEED TO FIGURE OUT WHY THERE ARE EMPTY SPECES BETWEEN THE CONTAINER ***************************/
+#section4_container {
+  /* margin: auto; */
+  background-size: 1300px 700px;
+  background-repeat: repeat;
+  background-image: url(/80588/spacesuit/source/images/backgrounds/bg-halftone-black-20p.png);
+  background-color: #4a154b;
+  align-items: center;
+  height: 370px;
+  position: relative;
+}
+
+#section4_div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#section4_row1 {
+  color: white;
+}
+
+#section4_btn1{
+  background-color: #fff;
+  color: #611f69;
+  fill: #611f69;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#section4_btn2{
+  background-color: transparent;
+  color: #fff;
+  fill: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+  margin-top: 5%;
 }
