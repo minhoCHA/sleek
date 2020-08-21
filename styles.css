@@ -9,22 +9,71 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
 @media screen and (max-width: 1279px) and (min-width: 64rem) {}
 
+/* Only override this if one of the conditions for the 1500w image is met */
+@media screen and (max-width: 1279px) and (min-width: 64rem) {
+  body {
+    background-color: red;
+  }
 
-/*************** SECTION 1 CSS ***************/
-#section1_container {
-  border: 3px solid red;
+
+  /**************************************************************************************************************************/
+  /*************************** NEED TO FIGURE OUT HOW TO CHANGE THE IMAGE BY CHANING THE SIZE OF THE SCREEN *****************/
+  /**************************************************************************************************************************/
+  .section1_img_size {
+    background-image: 'C:\Users\E80-1684\Desktop\sleek\resources\slack_desc_mobile.jpg';
+  }
 }
 
-#section1_headline {
-  border: 3px solid blue;
+@media screen and (max-width: 64rem) {
+  body {
+    background-color: blue;
+  }
 }
+
+/*****************************************************************/
+/************************* SECTION 1 CSS *************************/
+/*****************************************************************/
+.section1_display_sub {
+  font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: .8px;
+  font-size: .875rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  /* margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center; */
+  margin: auto;
+  margin-top: 7%;
+}
+
+.section1_main {
+  margin: auto;
+  margin-top: 1%;
+}
+
+.section1_p {
+  margin: auto;
+  margin-top: 0.2%;
+}
+
 #section1_img {
-  border: 3px solid hotpink;
+  margin: auto;
+  margin-top: 4%;
 }
+
 #section1_item_container {
   border: 3px solid orangered;
+  margin-top: 5%;
 }
 
 .section1_main {
@@ -35,16 +84,6 @@ html {
   margin-bottom: 1rem;
 }
 
-.section1_sub {
-  font-weight: 700;
-  font-size: .875rem;
-  line-height: 1.125;
-  letter-spacing: .8px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  text-align: center;
-}
-
 .section1_p {
   font-weight: 400;
   font-size: 1.125rem;
@@ -53,20 +92,30 @@ html {
   margin-bottom: 1rem;
 }
 
+.section1_btn_div {
+  margin-top: inherit;
+}
+
 #section1_btn1 {
+  margin: auto;
+  margin-right: .5rem;
   background-color: #4a154b;
   border-color: #4a154b;
   color: #fff;
 }
 
 #section1_btn2 {
+  margin: auto;
+  margin-left: 0;
   border-color: #4a154b;
   color: #4a154b;
 }
-
-/*************** SECTION 2 CSS ***************/
-#section2_container {
+/*****************************************************************/
+/************************* SECTION 2 CSS *************************/
+/*****************************************************************/
+.section2_container {
   border: 3px solid blue;
+  margin-top: 7%;
 }
 
 #section2_div {
@@ -76,18 +125,18 @@ html {
 #main_row1 {
   margin-bottom: 3rem;
 }
+/*****************************************************************/
+/************************ SECTION 3 CSS **************************/
+/*****************************************************************/
 
-/*************** SECTION 3 CSS ***************/
 #section3_container {
   border: 3px solid orange;
 }
-/*************** SECTION 4 CSS ***************/
 
-
-
-/****************************************************************************** NOTE : NEED TO FIGURE OUT WHY THERE ARE EMPTY SPECES BETWEEN THE CONTAINER ***************************/
+/*****************************************************************/
+/************************* SECTION 4 CSS *************************/
+/*****************************************************************/
 #section4_container {
-  /* margin: auto; */
   background-size: 1300px 700px;
   background-repeat: repeat;
   background-image: url(/80588/spacesuit/source/images/backgrounds/bg-halftone-black-20p.png);
@@ -110,6 +159,7 @@ html {
   color: white;
 }
 
+
 #section4_btn1{
   background-color: #fff;
   color: #611f69;
@@ -118,7 +168,7 @@ html {
   margin-left: 5%;
   margin-right: 5%;
 }
-
+ 
 #section4_btn2{
   background-color: transparent;
   color: #fff;
