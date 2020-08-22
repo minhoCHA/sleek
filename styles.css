@@ -15,6 +15,24 @@ img {
   border: 0;
 }
 
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+a:not([href]):not([class]) {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1279px) and (min-width: 64rem) {}
 
 /* Only override this if one of the conditions for the 1500w image is met */
@@ -24,9 +42,7 @@ img {
   }
 
 
-  /**************************************************************************************************************************/
   /*************************** NEED TO FIGURE OUT HOW TO CHANGE THE IMAGE BY CHANING THE SIZE OF THE SCREEN *****************/
-  /**************************************************************************************************************************/
   .section1_img_size {
     background-image: 'C:\Users\E80-1684\Desktop\sleek\resources\slack_desc_mobile.jpg';
   }
@@ -72,7 +88,6 @@ img {
 }
 
 #section1_item_container {
-  border: 3px solid orangered;
   margin-top: 5%;
 }
 
@@ -114,23 +129,141 @@ img {
 /************************* SECTION 2 CSS *************************/
 /*****************************************************************/
 .section2_container {
-  border: 3px solid blue;
   margin-top: 7%;
+  background-color: #f4ede4;
+  overflow: hidden; /******************************************NEED TO CHECK HOW TO FIGURE IT OUT************************************************************************************/
 }
 
-#section2_div {
-  background-color: #ebeaeb;
+.section2_col1 {
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-60%, 30%);
+  margin-top: 3%;
 }
 
-#main_row1 {
+.section2_part1_items {
   margin-bottom: 3rem;
 }
+ 
+.section2_part1_items {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+
+.section2_part3_items {
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, 30%);
+}
+
+.section2_col2 {
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-60%, 30%);
+  z-index: 1;
+  margin-left: 20%;
+}
+
+.section2_part2_items {
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(15%, 30%);
+}
+
+.img2 {
+  margin-left: -130%;
+}
+
+.section2_container .section2_part2_items {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 15%;
+}
+
+.section2_col3 {
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-60%, 30%);
+}
+
+.section2_col3 {
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-120%, 100%);
+  z-index: 1;
+  margin-left: 20%;
+}
+
+.section2_container .section2_part3_items {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.c-feature-tile {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 2rem rgba(0,0,0,.1);
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.125rem;
+  height: 117px;
+  line-height: 1.625rem;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition: transform 420ms cubic-bezier(.165,.84,.44,1);
+}
+
+.full {
+  height: 100%;
+}
+
+.short {
+  width: 100%;
+}
+
+.section2_img {
+  position:absolute;
+  z-index: 0;
+}
+
+.img1 {
+  top: -30%;
+  left: 40%;
+}
+
+.img3 {
+  top: 30%;
+  left: 30%;
+}
+
 /*****************************************************************/
 /************************ SECTION 3 CSS **************************/
 /*****************************************************************/
 
-#section3_container {
-  border: 3px solid orange;
+.section3_container {
+  margin-top: 5%;
+}
+
+.section3_container .section3_headline {
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 3%;
+}
+
+.section3_item1, .section3_item2, .section3_item3 {
+  box-shadow:0 0 2rem rgba(0,0,0,.1);
+}
+
+.section3_item1:hover, .section3_item2:hover, .section3_item3:hover {
+  box-shadow:0 0 2rem rgba(0,0,0,.2)
 }
 
 /*****************************************************************/
@@ -144,6 +277,7 @@ img {
   align-items: center;
   height: 370px;
   position: relative;
+  margin-top: 5%;
 }
 
 #section4_div {

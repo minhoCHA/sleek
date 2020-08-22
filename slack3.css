@@ -1,0 +1,38 @@
+.m-square-list{list-style:none;margin-left:0;padding-left:0}
+.m-square-list>li:not(.c-stat){padding-left:30px}
+.m-square-list>li:not(.c-stat):before{font-family:arial,helvetica,sans-serif;position:relative;float:left;color:var(--theme-bullet-color);text-indent:-30px;speak:none;content:'\25A0';top:-3px}
+@media screen and (min-width:48rem){.o-hero.v--short{padding-bottom:4rem}
+}
+@media screen and (min-width:0) and (max-width:767px){.o-hero__header__headline{font-size:2.875rem}
+.u-padding-top--flush-mobile-only{padding-top:0}
+}
+@media screen and (min-width:48rem) and (max-width:1023px){.o-hero__header__headline{font-size:2rem}
+}
+@media screen and (min-width:64rem) and (max-width:1279px){.o-hero__header__headline{font-size:2.5rem}
+}
+@media screen and (min-width:64rem){.o-hero__header__headline:lang(ja){font-size:2.5rem}
+}
+.o-section--feature{background-color:#f4ede4}
+.o-section--feature .o-content-container{position:relative;z-index:1;margin-bottom:3.5rem}
+.features-section{margin-bottom:2rem}
+@media screen and (min-width:0) and (max-width:1084px){.features-section{margin-top:-6rem}
+.features-section .features-copy{margin-top:1rem}
+.features-section .features-copy h2{margin-right:1rem}
+}
+@media screen and (min-width:48rem) and (max-width:1084px){.features-section img{grid-area:1/2}
+.features-section .features-copy{grid-area:1/1;display:flex;flex-direction:column;justify-content:flex-end}
+.features-section .features-copy h2{font-size:2rem}
+}
+@media screen and (min-width:67.8125rem){.o-section--feature .o-content-container img{position:absolute;z-index:-1}
+.o-section--feature .o-content-container img.offset-right{right:-1rem}
+.o-section--feature .o-content-container img.offset-top{top:-5rem}
+.o-section--feature .o-content-container img.offset-top--first{top:-2rem}
+.features-section{margin-top:0;margin-bottom:1rem}
+.features-section:not(.v--inverse) .features-copy{grid-area:1/2}
+.c-switcher-container__videos .o-two-columns.v--tablet{grid-column-gap:5%;grid-template-columns:55% 40%}
+}
+.c-switcher-container__videos .c-switcher-content .c-switcher-item{left:0}
+.c-switcher-container__videos .c-switcher-content .c-switcher-item img,.c-switcher-container__videos .c-switcher-content .c-switcher-item video{max-width:600px;max-height:400px}
+@media screen and (min-width:0) and (max-width:479px){.features-promos h2{max-width:20rem;margin:1rem auto}
+}
+#features:before{content:'';display:block;margin-top:70px}
